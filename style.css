@@ -10,3 +10,13 @@ input:in-range {
 input:out-of-range {
     border: 1px solid red;
 }
+
+.layout {
+    text-align: center;
+}
+.btn_display_btn {
+    opacity: 0;
+}
+.btn_display:not(:placeholder-shown) + button {
+    opacity: 1;
+}
