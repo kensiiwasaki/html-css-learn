@@ -1,13 +1,13 @@
-input {
+.input_validation_input {
     width: 15%;
 }
-input:focus {
+.input_validation_input:focus {
     outline: none;
 }
-input:in-range {
+.input_validation_input:in-range {
     border: 1px solid green;
 }
-input:out-of-range {
+.input_validation_input:out-of-range {
     border: 1px solid red;
 }
 
