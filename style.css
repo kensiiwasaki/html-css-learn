@@ -17,6 +17,6 @@ input:out-of-range {
 .btn_display_btn {
     opacity: 0;
 }
-.btn_display:not(:placeholder-shown) + button {
+.btn_display_input:not(:placeholder-shown) + button {
     opacity: 1;
 }
